@@ -15,4 +15,14 @@ variable "enabled" {
   description = "(Optional) Enable the provisioning of resources of the module or not"
   type        = bool
 }
- 
+
+variable "ami" {
+}
+
+variable "instance_type" {
+}
+
+variable "key_name" {
+}
+variable "user_data" {}
+
